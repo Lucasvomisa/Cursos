@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="port">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teste</title>
+</head>
+<body>
+
+    <!-- cria página de cadastro -->
+    <h1>Página de Cadastro</h1>
+    
+    <form action="xx" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="country" value="BR">
+
+        <!-- Insere campos para preenchimento de dados pessoais -->
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+        <label for="xx">
+            Nome: <br>
+            <input type="text" name="name" required minlength="2">
+
+        </label> <br>
+        <label for="xx">
+            Sobrenome: <br>
+            <input type="text" name="lastname">
+
+        </label> <br>
+
+        <label for="xx">
+            Email: <br>
+            <input type="text" name="email" pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" title="Endereço de e-mail" required>
+
+        </label> <br>
+        
+        <label for="xx">
+            Data de Nascimento: <br>
+            <input type="date" name="birthdate" required>
+
+        </label> <br>
+
+        <label for="xx">
+            Foto: <br>
+            <input type="file" name="photo" accept="image/*">
+
+        </label> <br>
+
+        </fieldset>
+
+        <!-- insere campos para preenchimento de dados profissionais -->
+        <fieldset>
+            <legend>Dados profissionais</legend>
+        <label for="xx">
+            Nome da empresa: <br>
+            <input type="text" name="companyname">
+
+        </label> <br>
+        <label for="xx">
+            Cargo na empresa: <br>
+            <input type="text" name="name">
+
+        </label> <br>
+        </fieldset>
+
+        <input type="submit" value="Cadastrar">
+        
+
+    </form>
+
+</body>
+</html>

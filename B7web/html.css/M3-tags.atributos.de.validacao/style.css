@@ -1,0 +1,10 @@
+fieldset {
+    background-color: #EEE;
+    margin-bottom: 15px;
+    border: 2px solid blue;
+}
+
+legend {
+    background-color: blue;
+    color: white;
+}
