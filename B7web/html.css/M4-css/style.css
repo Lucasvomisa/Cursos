@@ -1,0 +1,27 @@
+body {
+    margin: 0;   
+}
+
+.container {
+    width: calc(100% - 20px);
+    height: 200px;
+    background-color: #CCC;
+
+    color: red;
+}
+
+.containerteste {
+    margin-top: 5px;
+    background-color: orange;
+    color: black;
+    width: 50%;
+    height: 200px;
+}
+
+.containerteste2 {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5px;
+    background-color: grey;
+    color: black;
+    width: 12ch;
+}
