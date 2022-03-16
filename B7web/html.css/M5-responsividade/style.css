@@ -1,0 +1,12 @@
+
+
+img {
+    width: 500px;
+    height: 400px;
+    object-fit: scale-down;
+}
+
+.foto1, .foto2 {
+    margin: 20px;
+
+}
