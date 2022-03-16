@@ -14,7 +14,9 @@
 <li><strong>cover: </strong>Corta e redimensiona a imagem para caber no espaço disponível.</li>
 <li><strong>none: </strong>Somente corta a imagem para caber no espaço, não redimenciona.</li>
 <li><strong>scale-down: </strong>Diminui a qualidade e o tamanho para caber no espaço.</li>
-<Aplica><strong>@media (condições): </strong>Aplica responsividade de acordo com as condições dispostas.</li>
+</ul>
+<li><strong>@media (condições): </strong>Aplica responsividade de acordo com as condições dispostas.</li>
 <li><strong>@media only print: </strong>Aplica condições somente no momento da impressão do usuário.</li>
 <li><strong>@media (orientation: landscape/portrait): </strong>Faz com que sejam aplicadas condições de acordo com a tela horizontal ou vertical.</li>
 <li><strong>@media (aspect-ratio: 1/1): </strong>Exemplo de aplicação de responsividade de acordo com a proporção da tela.</li>
+</ol>
