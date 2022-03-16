@@ -9,7 +9,7 @@
 <h3>TAGS CSS</h3>
 <ol>
 <li><strong>object-fit: </strong>Métodos de redimencionar a imagem.</li>
-<ul><li><strong>fill: </strong>Padrão</li>
+<ul><li><strong>fill: </strong>Padrão.</li>
 <li><strong>contain: </strong>Diminuir a imagem mantendo a proporção ao espaço disponível.</li>
 <li><strong>cover: </strong>Corta e redimensiona a imagem para caber no espaço disponível.</li>
 <li><strong>none: </strong>Somente corta a imagem para caber no espaço, não redimenciona.</li>
