@@ -1,0 +1,239 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #0B1726;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    color: white;
+    background-color: #0B1726;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+
+}
+
+h1:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.title_text {
+    margin: 50px;
+}
+
+.title_bar {
+    background-color: white;
+    width: 100%;
+    margin: 20px;
+    height: 1px;
+}
+
+.title_bar2 {
+    background-color: white;
+    width: 100%;
+    margin: 20px;
+    height: 1px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    font-size:18px;
+}
+
+nav ul, nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+nav .active a, nav a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.title {
+    margin: 50px;
+}
+
+#bio {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.bio_span {
+    margin: 20px;
+    padding: 20px;
+    border-left: 1px solid white;
+}
+
+.bio_zimmer {
+    flex: 1;
+}
+
+.bio_span {
+    flex: 2;
+}
+
+.bio_zimmer img {
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #1A3940;
+}
+
+
+.bio_desc p {
+    line-height: 25px;
+    text-align: justify;
+}
+
+.bio_desc2 p {
+    line-height: 25px;
+    text-align: justify;
+}
+
+#filmografia {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid #1A3940;
+}
+
+.highlights {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.film_list {
+    flex: 2;
+    border-left: 1px solid white;
+    margin: 10px;
+    
+}
+
+.film_list a {
+    margin: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.film_list a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h2 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+#awards {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+#awards p {
+    text-align: justify;
+}
+
+.awards_explanation {
+    flex: 1;
+    margin: 10px;
+}
+
+.awards_img {
+    align-items: center;
+    
+}
+
+.awards_img img {
+    max-width: 250px;
+    border: 1px solid #1A3940;
+}
+
+.awards_list {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding-left: 20px;
+    border-left: 1px solid white;
+}
+
+.awards_box1, .awards_box2 {
+    margin: 30px;
+}
+
+footer {
+    display: inline-block;
+    margin: 5px;
+  
+}
+
+.fonts {
+    padding-left: 20px;
+    text-align: center;
+
+}
+
+.fonts, .socials {
+    max-width: 100%;
+}
+
+.fonts a {
+    text-decoration: none;
+}
+
+.fonts img {
+    max-width: 4%;
+    margin-left: 70px;
+}
+
+.copyright {
+    margin: 15px;
+    background-color: #0B1726;
+    border-top: 1px solid white;
+    text-align: center;
+    margin: 30px;
+    padding: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.copyright img {
+    max-width: 5%;
+}
