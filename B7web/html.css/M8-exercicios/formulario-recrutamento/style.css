@@ -1,0 +1,88 @@
+body {
+    font: arial;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(124, 20, 221);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.vivologo {
+    width: 10%;
+}
+
+.container {
+    display: flex;
+    align-items: center;   
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+label, input, select, textarea {
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
+    border-color: black;
+}
+
+input, select, textarea {
+    background-color: rgb(216, 216, 216);
+    border-radius: 5px;
+}
+
+#name {
+    width: 60%;
+}
+
+#endereco {
+    width: 60%;
+}
+
+#numero {
+    width: 10%
+}
+
+#email {
+    width: 35%;
+}
+
+#github {
+    width: 50%;
+}
+
+#linkedin {
+    width: 50%;
+}
+
+.botao {
+    margin: 10px;
+    font-size: 17px;
+    border-color: black;
+    border-radius: 10%;
+}
+
+.botao:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.158);
+    
+}
+
+.copyright {
+    margin: 15px;
+    border-top: 1px solid white;
+    text-align: center;
+    margin: 30px;
+    padding: 5px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.copyright img {
+    max-width: 5%;
+}

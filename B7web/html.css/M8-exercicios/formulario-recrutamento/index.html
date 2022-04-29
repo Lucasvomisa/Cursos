@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="vivologo.png">
+    <title>Recrutamento - Vivo</title>
+</head>
+<body>
+
+    <div class="container">
+    <img class="vivologo" src="vivologo.png" alt="">
+    <h1>Formulário de Recrutamento</h1>
+    <img class="vivologo" src="vivologo.png" alt="">
+    </div>
+
+    <form action="cadastro-formulario" method="post">
+    <div class="container">
+<fieldset>
+    <legend>Dados Pessoais</legend>  
+    <label for="name">Nome Completo:</label>
+    <input type="text" id="name" name="name" required><br>
+    <label for="bdate">Data de Nascimento:</label>
+    <input type="date" id="bdate" name="bdate" required>
+    <label for="nacionalidade">Nacionalidade</label>
+    <input type="text" id="nacionalidade" name="nacionalidade"><br>
+    <label for="status">Estado Civil:</label>
+    <select name="estcivil" id="estcivil">
+        <option value="solteiro">Solteiro</option>
+        <option value="casado">Casado</option>
+        <option value="uniaoestavel">União Estável</option>
+        <option value="divorciado">Divorciado</option>
+        <option value="solteiro">Viúvo</option>
+    </select>
+    <br>
+    <label for="graduacao">Graduação:</label>
+    <select name="graduacao" id="graduacao" required>
+        <option value="ensifundamental">Ensino Fundamental</option>
+        <option value="ensinomedio">Ensino Médio</option>
+        <option value="ensinosuperior">Ensino Superior</option>
+        <option value="posgraduacao">Pós-Graduação</option>
+        <option value="mestrado">Mestrado</option>
+        <option value="doutorado">Doutorado</option>
+    </select>
+    <br>
+    <label for="endereco">Endereço:</label>
+    <input type="text" id="endereco" name="endereco" placeholder="Rua, Av, Travessa...">
+    <label for="numero">Número:</label>
+    <input type="text" id="numero" name="numero" maxlength="5">
+    <br>
+    <label for="complemento">Complemento:</label>
+    <input type="text" id="complemento" name="complemento">
+    <label for="cidade">Cidade:</label>
+    <input type="text" id="cidade" name="cidade">
+    <label for="estado">Estado:</label>
+    <select name="tEst" id="cEst">
+        <optgroup label="Região Norte">
+            <option value="AC">Acre</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="PA">Pará</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="TO">Tocantins</option>
+        </optgroup>
+        <optgroup label="Região Nordeste">
+            <option value="AL">Alagoas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="MA">Maranhão</option>
+            <option value="PB">Paraíba</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="SE">Sergipe</option>
+        </optgroup>
+        <optgroup label="Região Centro Oeste">
+            <option value="GO">Goiás</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+        </optgroup>
+        <optgroup label="Região Sudeste">
+            <option value="ES">Espírito Santo</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP">São Paulo</option>
+        </optgroup>
+        <optgroup label="Região Sul">
+            <option selected="" value="PR">Paraná</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="SC">Santa Catarina</option>
+        </optgroup>     
+    </select>
+    <br>
+    <label for="tel">Telefone:</label>
+    <input type="tel" id="tel" name="tel" maxlength="11" required> <br>
+    <label for="xx">Email:
+    <input type="text" id="email" name="email" pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" title="Endereço de e-mail" required>
+
+    </label> <br>
+
+
+</fieldset>
+</div>
+
+<div class="container">
+<fieldset>
+    <legend>Dados Profissionais</legend>
+    <div class="vagas">
+    <label for="vaga">Vaga para qual deseja se candidatar:</label>
+    <br>
+    <input type="radio" id="vaga" value="vaga1" name="vaga">
+    <label for="back-end">Back-end</label>
+    <br>
+    <input type="radio" id="vaga" value="vaga2" name="vaga">
+    <label for="Front-end">Front-end</label>
+    <br>
+    <input type="radio" id="vaga" value="vaga3" name="vaga">
+    <label for="engenheirodados">Engenheiro de Dados</label>
+    <br>
+    <input type="radio" id="vaga" value="vaga4" name="vaga">
+    <label for="gerenteprodutos">Gerente de Produtos</label>
+    <br>
+    <br>
+    </div>
+    <label for="experiencia">Experiência na área pretendida:</label>
+    <br>
+    <select name="anos" id="anos" required>
+        <option value="1">Menor que 1 ano</option>
+        <option value="2">Entre 1 e 2 anos</option>
+        <option value="3">Maior que 3 anos</option>
+        <option value="5">Maior que 5 anos</option>
+    </select>
+    <br>
+    <br>
+    <textarea name="" id="" cols="50" rows="10" placeholder="Descreva brevemente sua experiência e tecnologias utilizadas na área pretendida" required></textarea>
+    <br>
+    <label for="salario">Pretenção salarial:</label>
+    <br>
+    <select name="salario" id="salario">
+        <option value="2">Entre R$ 2.000 e R$ 3.000</option>
+        <option value="3">Entre R$ 3.000 e R$ 5.000</option>
+        <option value="5">Entre R$ 5.000 e R$ 8.000</option>
+        <option value="10">Maior que R$ 10.000</option>
+    </select>
+    <br>
+    <br>
+    <label for="github">Github:</label>
+    <input type="text" id="github" name="github" required>
+    <br>
+    <label for="github">Linkedin:</label>
+    <input type="text" id="linkedin" name="linkedin">
+    <br>
+    <button class="botao" type="submit" name="botao" value="Cadastrar-formulario">Cadastrar</button>
+
+
+</fieldset>
+</div>
+</form>
+
+<div class="container">
+
+    <div class="copyright">
+        <span>Copyright. Todos os direitos reservados.</span>
+        <a href="https://github.com/Lucasvomisa" target="_blank">
+        <img src="github.png" alt="Logo do site Github, uma sombra de um gato">
+        </a>
+    </div>
+</div>
+</footer>
+    
+</body>
+</html>
