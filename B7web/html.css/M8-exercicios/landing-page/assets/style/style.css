@@ -1,0 +1,318 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.container {
+width: 100%;
+height: 40px;
+background-color: rgb(43, 40, 40);
+}
+
+#menu ul {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#menu ul li {
+display: inline-block;
+list-style: none;
+align-items: center;
+justify-content: center;
+margin-left: 15px;
+font-size: 12px;
+font-family: arial;
+
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#menu img {
+    width: 12%;
+
+}
+
+#menu .container a:hover {
+    padding-bottom: 5px;
+    color: rgb(172, 172, 172);
+}
+
+.unicef {
+    display: flex;
+    background-color: rgb(248, 248, 248);
+    margin: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+}
+
+.unicef a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: black;
+    
+}
+
+.unicef a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.container_iphone {
+    display: grid;
+    background-color: rgba(248, 247, 247, 0.26);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_iphone h1, h3 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.container_iphone h3 {
+    font-weight: lighter;
+
+}
+
+.container_iphone a {
+    text-decoration: none;
+    margin: 10px;
+    color:black;
+}
+
+.container_iphone a:hover {
+    font-weight: bold;
+}
+
+.links_iphone {
+    display: inline-block;
+    letter-spacing: .050em;
+    line-height: 1.381;
+}
+
+#iphonese {
+    margin-top: 50px;
+}
+
+.iphonese img {
+    width: 100%;
+}
+
+@keyframes updown {
+    from {transform:scale(0deg);}
+    to {transform:scale(1.1,1.1);}
+}
+
+.iphonese:hover {
+    animation: updown 10s infinite;
+}
+
+#ipadair {
+    margin-top: 50px;
+    background-color: black;
+}
+
+.container_ipad {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.title_ipad {
+    flex: 1;
+}
+
+picture {
+    flex: 2;
+}
+
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+.ipadair img {
+    width: 100%;
+    animation: spin 20s infinite;
+}
+
+.title_ipad a {
+    color: white;
+    text-decoration: none;
+}
+
+.title_ipad a span {
+    color: rgb(135, 153, 233);
+    font-family: 'Pacifico', cursive;
+}
+
+.links_ipadair a {
+    margin: 10px;
+    color: rgb(75, 142, 219);
+}
+
+.links_ipadair a:hover {
+    font-weight: bold;
+}
+
+.container_gadgets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(102, 205, 171, 0.205);
+}
+
+.container_gadgets h1, h3 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.container_gadgets h3 {
+    font-weight: lighter;
+
+}
+
+.container_gadgets a {
+    text-decoration: none;
+    margin: 10px;
+    color:black;
+}
+
+.container_gadgets a:hover {
+    font-weight: bold;
+}
+
+.apple_watch {
+    flex: 1;
+    margin-top: 50px;
+}
+
+.apple_watch img {
+    width: 100%;
+}
+
+.watch_series {
+    color: red;
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+
+.apple_airpods {
+    flex: 1;
+    margin-top: 50px;
+    border-left: 1px solid rgba(102, 205, 171, 0.205);
+}
+
+.apple_airpods h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.apple_airpods img {
+    width: 45%;
+}
+
+.novo_title {
+    display: inline-block;
+    color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+footer {
+    background-color: rgba(190, 188, 188, 0.425);
+    font-size: 10px;
+}
+
+.footer_list ul {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(201, 193, 193);
+    
+}
+
+.footer_list ul li {
+    margin: 10px;
+    list-style: none;
+}
+
+.footer_list ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.footer_list ul li a:hover {
+    color: rgb(39, 38, 38);
+}
+
+.footer_menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.footer_menu ul {
+    padding: 0;
+
+}
+
+.footer_menu ul li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.footer_menu ul li a {
+    text-decoration: none;
+    color: grey;
+    
+}
+
+.footer_menu ul li a:hover {
+text-decoration: underline;
+
+}
+
+.submenu1, .submenu2, .submenu3, .submenu4, .submenu5  {
+    flex: 1;
+}
+
+footer p {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    color: grey;
+    
+}
+
+.copyright {
+    color: white;
+    background-color: rgb(43, 40, 40);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.copyright img {
+    max-width: 3%;
+}
