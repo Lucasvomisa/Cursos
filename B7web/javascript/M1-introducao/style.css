@@ -1,0 +1,63 @@
+#exemplo {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.botoes button {
+    margin: 20px;
+}
+
+.verde {
+    background-color: green;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.vermelho {
+background-color: red;
+}
+
+img {
+    margin: 30px;
+    height: 300px;
+}
+
+.botoesimagem {
+    margin-left: 30px;
+    
+}
+
+.botoesimagem button {
+    padding: 10px;
+}
+
+.texto {
+    width: 300px;
+    height: 500px;
+    background-color: rgba(128, 128, 128, 0.623);
+    overflow: auto;
+    margin: 30px;
+    padding: 20px;
+}
+
+.scroll_button {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border-radius: 10px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.scroll_none {
+    display: none;
+}

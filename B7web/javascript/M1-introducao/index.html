@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- exemplo de botão trocando a cor de fundo com js -->
+    <div id="exemplo">
+        <p>Olá Mundo!</p>
+    
+    </div>
+    <div class="botoes">
+    <button onclick="verde()">Verde</button>
+    <button onclick="azul()">Azul</button>
+    <button onclick="vermelho()">Vermelho</button>
+    </div>
+
+    <!-- exemplo de botões trocando imagem de animal -->
+    <div class="box">
+    <img src="img/gato.jpg" data-animal="gato" class="imagem">
+    </div>
+
+    <div class="botoesimagem">
+    <button onclick="trocarImagem('gato.jpg', 'Gato')">Gato</button>
+    <button onclick="trocarImagem('cachorro.jpg', 'Cachorro')">Cachorro</button>
+    <button onclick="pegarAnimal()">Qual é o animal?</button>
+    </div>
+    
+    <!-- exemplo -->
+    
+    <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, nisi? Odit iure blanditiis ratione aperiam iusto excepturi perspiciatis magnam maiores distinctio? Doloremque consectetur mollitia tempora exercitationem accusamus odio, reiciendis delectus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, nisi? Odit iure blanditiis ratione aperiam iusto excepturi perspiciatis magnam maiores distinctio? Doloremque consectetur mollitia tempora exercitationem accusamus odio, reiciendis delectus.</div>
+
+    <div id="scroll" onclick="scrolltop()" class="scroll_button"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
